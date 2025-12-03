@@ -214,11 +214,17 @@ main {
   letter-spacing: 0.12em;
   font-weight: 700;                 /* bold text */
   color: var(--accent);             /* brighter text color */
+  /* center & "justify" the text inside the pill */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   backdrop-filter: blur(10px);
   background: rgba(15, 23, 42, 0.95);
   box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.35),
               0 0 18px rgba(56, 189, 248, 0.45); /* glow/highlight */
 }
+
 
 .hero-summary {
   position: relative;
