@@ -215,6 +215,7 @@ main {
   color: var(--text-soft);
   backdrop-filter: blur(10px);
   background: rgba(15, 23, 42, 0.8);
+  font-weight: bold;
 }
 
 .hero-summary {
