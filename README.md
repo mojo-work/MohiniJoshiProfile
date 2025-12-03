@@ -1,3 +1,1 @@
-# Resume Portfolio
-
-Welcome! 👋 This repo contains my resume portfolio, highlighting my experience in product management, data analysis, and customer-focused delivery. Visit the GitHub Pages site to explore my background, skills, and publication, download my resume, and connect with me.
+Welcome! 👋 Thanks for stopping by my little corner of GitHub. This repo holds my resume portfolio, showcasing my journey in product management, data storytelling, and customer-first solutions. Check out the GitHub Pages site to explore my work, browse my skills and publication, grab my resume, and say hi! 💬✨
