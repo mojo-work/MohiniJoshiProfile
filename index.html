@@ -142,7 +142,8 @@
 
     .hero {
       max-width: var(--max-width);
-      margin: 40px auto 24px;
+      /* increased top margin so text doesn't hide behind sticky nav */
+      margin: 80px auto 24px;
       padding: 0 20px;
       display: grid;
       gap: 26px;
@@ -212,10 +213,10 @@
     }
 
     .hero-pill {
+      font-size: 0.75rem;
       padding: 6px 11px;
       border-radius: 999px;
       border: 1px solid rgba(148, 163, 184, 0.5);
-      font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.12em;
       color: var(--text-soft);
@@ -734,15 +735,6 @@
                   >
                     <span>🔗</span>
                     <span>LinkedIn</span>
-                  </a>
-                  <a
-                    class="pill-link"
-                    href="https://free-4993629.webadorsite.com/portfolio"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span>🖼️</span>
-                    <span>Portfolio</span>
                   </a>
                 </span>
               </div>
