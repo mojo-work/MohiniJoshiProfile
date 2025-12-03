@@ -209,13 +209,15 @@ main {
   font-size: 0.75rem;
   padding: 6px 11px;
   border-radius: 999px;
-  border: 1px solid rgba(148, 163, 184, 0.5);
+  border: 1px solid rgba(56, 189, 248, 0.8); /* brighter border */
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--text-soft);
+  font-weight: 700;                 /* bold text */
+  color: var(--accent);             /* brighter text color */
   backdrop-filter: blur(10px);
-  background: rgba(15, 23, 42, 0.8);
-  font-weight: bold;
+  background: rgba(15, 23, 42, 0.95);
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.35),
+              0 0 18px rgba(56, 189, 248, 0.45); /* glow/highlight */
 }
 
 .hero-summary {
