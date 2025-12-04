@@ -605,10 +605,10 @@ main {
   margin-top: 3px;
 }
 
-/* Add offset for any hash-link target */
 [id] {
-  scroll-margin-top: 90px;
+  scroll-margin-top: 120px;
 }
+
 
 /* FOOTER */
 
