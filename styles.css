@@ -14,6 +14,13 @@
   --max-width: 1040px;
 }
 
+/* Prevent sticky nav from hiding anchored sections */
+.hero,
+.section,
+#contact {
+  scroll-margin-top: 90px; /* adjust if you change nav height */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
