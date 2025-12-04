@@ -14,13 +14,6 @@
   --max-width: 1040px;
 }
 
-/* Prevent sticky nav from hiding anchored sections */
-.hero,
-.section,
-#contact {
-  scroll-margin-top: 90px; /* adjust if you change nav height */
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -610,6 +603,11 @@ main {
   font-size: 0.8rem;
   color: var(--text-soft);
   margin-top: 3px;
+}
+
+/* Add offset for any hash-link target */
+[id] {
+  scroll-margin-top: 90px;
 }
 
 /* FOOTER */
