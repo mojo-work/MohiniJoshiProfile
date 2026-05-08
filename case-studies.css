@@ -1,0 +1,133 @@
+/* Case studies styles are scoped so the homepage remains unchanged. */
+
+.case-page {
+  padding-top: 16px;
+}
+
+.case-h1 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.case-lede {
+  font-size: 0.88rem;
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+.case-card-link {
+  display: block;
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.case-card-link:hover,
+.case-card-link:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(56, 189, 248, 0.55);
+  outline: none;
+}
+
+/* Detail pages */
+.case-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-soft);
+  margin-bottom: 10px;
+}
+
+.case-breadcrumb a {
+  color: var(--accent);
+}
+
+.case-title {
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin: 6px 0 10px;
+}
+
+.case-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 6px 0 12px;
+}
+
+.case-meta .meta-badge {
+  margin-right: 0;
+}
+
+.case-section h2 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 18px 0 8px;
+  color: #e5e7eb;
+}
+
+.case-section p,
+.case-section li {
+  font-size: 0.86rem;
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+.case-section ul {
+  margin-left: 18px;
+  margin-top: 8px;
+  display: grid;
+  gap: 6px;
+}
+
+.case-callouts {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+@media (min-width: 720px) {
+  .case-callouts {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.case-callout {
+  border: 1px solid rgba(31, 41, 55, 0.9);
+  border-radius: var(--radius-xl);
+  background: rgba(2, 6, 23, 0.85);
+  padding: 10px;
+}
+
+.case-callout-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-soft);
+}
+
+.case-callout-value {
+  margin-top: 6px;
+  font-size: 0.88rem;
+  color: var(--text-main);
+}
+
+.case-note {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(31, 41, 55, 0.9);
+  background: rgba(56, 189, 248, 0.06);
+  color: var(--text-soft);
+  font-size: 0.82rem;
+}
+
+.case-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
